@@ -47,3 +47,7 @@ curl --location --request PUT '{{BASE_URL}}/api' \
 ## How to run Application
 
 1. Install the frameworks/tools provided in the [What is Needed](#what-is-needed) section.
+2. Import [Api.postman_collection.json](https://github.com/dylanrayboss/Points/blob/main/Api.postman_collection.json) and [Points.postman_environment.json](https://github.com/dylanrayboss/Points/blob/main/Points.postman_environment.json) into Postman.
+3. Open the root folder of the repository and execute the following:
+   * ```dotnet run```
+4. Go back to Postman and you can now execute any of the [routes](#routes) provided in the API Postman collection. 
