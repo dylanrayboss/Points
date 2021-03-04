@@ -5,7 +5,8 @@ Points is a RESTful API for accessing/tracking points per payer.
 ## Table of Contents
 
 - [Routes](#routes)
-- [Installation](#installation)
+- [What is Needed](#what-is-needed)
+- [How to run Application](#how-to-run-application)
 
 ## Routes
 
@@ -32,16 +33,17 @@ curl --location --request PUT '{{BASE_URL}}/api' \
 }'
 ```
 
-## Installation
-
-### Dependencies 
+## What is Needed 
 
 1. [.NET Core 3.1](https://dotnet.microsoft.com/download)
+   * Used to run the application.
 2. [dotnet-ef](https://www.nuget.org/packages/dotnet-ef/)
+   * Used for creating the database (if needed, a blank database file is provided).
+3. [DB Browser for SQLite](https://sqlitebrowser.org/)
+   * Used for viewing/editing database (if needed).
+4. [Postman](https://www.postman.com/downloads/)
+   * Used for submitting the requests.
 
-### Installing
+## How to run Application
 
-```
-Test
-```
-
+1. Install the frameworks/tools provided in the [What is Needed](#what-is-needed) section.
